@@ -102,7 +102,7 @@
               </annotationProcessors>
               <compilerArgs>
                   <!-- location of the annotated JDK, which comes from a Maven dependency -->
-                  <arg>-Xbootclasspath/p:${annotatedJdk}</arg>
+                  <!-- <arg>-Xbootclasspath/p:${annotatedJdk}</arg> -->
               </compilerArgs>
           </configuration>
       </plugin>
